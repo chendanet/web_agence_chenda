@@ -1,16 +1,36 @@
 import logo from './logo.svg';
 import './App.css';
+import Home from './Components/Home'
+import Work from './Components/Work'
+import About from './Components/About'
+import Nav from './Components/Nav/Nav'
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+
 
 function App() {
   return (
-  
-    <div className="App">
-      <h1>Welcome on our Web agency</h1>
-      <div>
-        <p>Are you considering any projects you would like to materialise in the short or long term? You are in the right place !</p>
-      </div>
-    </div>
+    <>
+
+          <div className="App">
+                
+          </div>
     
+        <Router> 
+          <Nav />
+
+          <Switch>
+            <Route path="/" exact component={Home}/>
+            <Route path="/Work" exact component={Work}/>
+            <Route path="/About" exact component={About}/>
+          </Switch>
+        
+        </Router>
+           <footer>
+             <p>Web Agency© 2021</p>
+           </footer>
+     
+  
+    </>
   );
 }
 

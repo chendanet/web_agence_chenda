@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+/* Mon CSS */
+body {
+  background-color: rgb(224, 210, 210);
+  color: rgb(150, 51, 64);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 80px;
+}
+
+footer {
+  background-color: rgb(236, 240, 200);;
+}

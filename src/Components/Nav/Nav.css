@@ -1,0 +1,15 @@
+.navbarweb {
+    display: flex;
+    font-size: 25px;
+    list-style: none;
+    color: aquamarine;
+}
+
+.navbarweb li {
+    margin-right: 20px;
+}
+
+a {
+    color: rgb(189, 89, 103);
+
+  }
