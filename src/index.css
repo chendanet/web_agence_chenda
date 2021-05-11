@@ -5,9 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: color 2s ease-in-out; /* pour le smooth du changement de couleur */
+  background-color: 2s ease-in-out; /* pour le smooth du changement de couleur */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* ajouter par moi pour le thème night : */
+
+.dark-body {
+
+  background-color: #222;
+  color: #f1f1f1;
+
 }

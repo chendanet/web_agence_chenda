@@ -2,7 +2,7 @@
     display: flex;
     font-size: 25px;
     list-style: none;
-    color: aquamarine;
+    /* color: aquamarine; */
 }
 
 .navbarweb li {
@@ -10,6 +10,6 @@
 }
 
 a {
-    color: rgb(189, 89, 103);
+    /* color: rgb(189, 89, 103); */
 
   }
