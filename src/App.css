@@ -51,3 +51,7 @@ h1 {
 footer {
   background-color: rgb(236, 240, 200);;
 }
+
+.errorlink {
+  font-weight: bold;
+}

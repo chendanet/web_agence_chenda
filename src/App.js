@@ -22,7 +22,7 @@ function App() {
             <Route path="/" exact component={Home}/>
             <Route path="/Work" exact component={Work}/>
             <Route path="/About" exact component={About}/>
-            <Route path="/" component={ () => <div>ERROR 404 on this page - this is the wrong URL</div> }/>
+            <Route path="/" component={ () => <div className="errorlink">ERROR 404 on this page - this is the wrong URL 🙅🏻‍♀️</div> }/>
           </Switch>
         
         </Router>
